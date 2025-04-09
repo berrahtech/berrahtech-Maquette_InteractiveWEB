@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+        integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <footer>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <input type="color" onchange="changeColor(this.value)">
+            <li id="generate-pdf-btn">telecharger</li>
+         </ul>
+    </footer>
+    <main class="container" id="section">
+        <div class="left">
+            <div class="jaune">
+                <img src="profil.png" alt="" id="profil">
+            </div>
+
+            <div class="TOUT">
+                <div class="lineg">
+                    <span class="point-rec"></span>
+                    <span class="pointj"></span>
+                    <span class="pointj2"></span>
+                    <span class="pointj21"></span>
+                    <span class="point-rec01"></span>
+                    <span class="pointj01"></span>
+                    <span class="pointj3"></span>
+                    <span class="point-rec02"></span>
+                    <span class="pointj02"></span>
+                    <span class="pointj5"></span>
+                    <span class="pointj6"></span>
+                </div>
+
+                <div class="toure">
+                    <div class="contact">
+                        <div id="cercle">
+                            <img src="cont.png" alt="" id="img1">
+                        </div>
+                        <div class="point-group"><span>
+                                <h2 id="cont">CONTACT</h2>
+                            </span></div>
+                        <div id="cercle1">
+                            <img src="appel.png" alt="" id="img11">
+                        </div>
+                        <div class="point-group"><span>
+                                <p id="appel">70672215 69179555</p>
+                            </span></div>
+                        <div id="cercle2">
+                            <img src="navigateur.png" alt="" id="img111">
+                        </div>
+                        <div class="point-group"><span>
+                                <p id="navigateur">berratec1995@gmail.com</p>
+                            </span></div>
+                        <div id="cercle3">
+                            <img src="gps.png" alt="" id="img1111">
+                        </div>
+                        <div class="point-group"><span>
+                                <p id="gps">Kalaban Coro Rue:706 Porte:271</p>
+                            </span></div>
+                    </div>
+                    <div class="reference">
+                        <div id="cercle4">
+                            <img src="public.png" alt="" id="img2">
+                        </div>
+                        <div class="point-group01"><span>
+                                <h2 id="ref">REFERENCES</h2>
+                            </span></div>
+                        <div class="point-group01"><span>
+                                <h4 class="oran">OUAMRI<h4>
+                            </span></div>
+                        <p class="ouam">Oran, Algérie Email:ouamri@yahoo.com</p>
+                        <div class="point-group01"><span>
+                                <h4 class="oran">MEDDEBER<h4>
+                            </span></div>
+                        <p class="ouam">Oran, Algérie Email:lmeduniv@gmail.com</p>
+
+                    </div>
+                    <div class="education">
+                        <div id="cercle5">
+                            <img src="casquette.png" alt="" id="img21">
+                        </div>
+                        <div class="point-group02"><span>
+                                <h2 id="edu">EDUCATION</h2>
+                            </span></div>
+                        <div class="point-group02"><span>
+                                <h4 class="univ">Université-USTO<h4>
+                            </span></div>
+                        <p class="ouam">Master en réseaux et télécommunication <br>
+                            2016-2018
+                        </p>
+                        <div class="point-group02"><span>
+                                <h4 class="univ">Université-USTO<h4>
+                            </span></div>
+                        <p class="ouam">Licence en électronique <br>
+                            2013-2016
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="lined"></div>
+            <div class="desc">
+                <div class="point-group1"><span class="point-rec1"></span><span id="nom">
+                        <h2>MOHAMED TOURE Developpeur Full Stack</h2>
+                    </span></div>
+            </div>
+            <div class="about">
+                <div id="cercle6">
+                    <img src="casquette.png" alt="" id="img3">
+                </div>
+                <div class="point-group2"><span class="point-rec2"></span><span>
+                        <h2 id="exp">A<span id="tt">_</span>propos<span id="tt">_</span>de<span id="tt">_</span>moi</h2>
+                    </span></div>
+                <p id="met">Mettre mes compétences au service de votre entreprise. Efficacité, esprit d'équipe,
+                    pragmatisme sont les trois mots qui me décrivent</p>
+            </div>
+            <div class="experience">
+                <div id="cercle7">
+                    <img src="mallette.png" alt="" id="img31">
+                </div>
+                <div class="point-group3"><span class="point-rec3"></span><span>
+                        <h2 id="per">EXPERIENCES</h2>
+                    </span></div>
+                <div class="point-group3"><span class="pointj1"></span><span>
+                        <h4>2018:Projet de fin d'études(laboratoire signaux et images)<h4>
+                    </span></div>
+                <ul id="sys">
+                    <li>Etude et réalisation d'un système de videosurveillance intelligente avec le nano-ordinateur
+                        raspberry</li><br>
+                    <li>Réalisation de l'application informatique correspondante avec python 3</li>
+                </ul>
+                <div class="point-group3"><span class="pointj1"></span><span>
+                        <h4>Février à Octobre 2025<h4>
+                    </span></div>
+                <p id="dev">Développement web/mobile full stack chez orange digital kalanso</p>
+
+            </div>
+            <div class="competence">
+                <div id="cercle8">
+                    <img src="integration.png" alt="" id="img311">
+                </div>
+                <div class="point-group4"><span class="point-rec4"></span><span>
+                        <h2 id="comp">COMPETENCE</h2>
+                    </span></div>
+                <div class="progress">
+                    <h4>Microsoft office</h4>
+                    <div class="percent">
+                        <div style="width: 60%;"></div>
+                    </div>
+                </div>
+                <div class="progress">
+                    <h4>Html/Css</h4>
+                    <div class="percent">
+                        <div style="width: 60%;"></div>
+                    </div>
+                </div>
+                <div class="progress">
+                    <h4>GoogleWorkspace</h4>
+                    <div class="percent">
+                        <div style="width: 60%;"></div>
+                    </div>
+                </div>
+                <div class="progress">
+                    <h4>Javascript</h4>
+                    <div class="percent">
+                        <div style="width: 60%;"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>
