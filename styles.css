@@ -18,7 +18,7 @@
     height: 1000px;
     justify-content: center;
     margin: auto;
-    /* border: 2px solid gray; */
+    border: 2px solid gray;
     overflow: hidden;
     background-color: black;
 }
@@ -40,8 +40,19 @@
   border-top: 193px solid var(--couleur);
   border-left: 41px solid var(--couleur);
   border-bottom: 31px solid transparent;
-  border-right: 240px solid transparent;
+  border-right: 239px solid transparent;
     }
+ .jaune1 {
+
+  position: relative;
+  width: 0;
+  left: 69px;
+  height: 0;
+  border-top: 31px solid transparent;
+  border-left: 239px solid transparent;
+  border-bottom: 193px solid var(--couleur);
+  border-right: 41px solid var(--couleur)
+        }
 #profil{
   box-sizing: border-box;
   position: absolute;
